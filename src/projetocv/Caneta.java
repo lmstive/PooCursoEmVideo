@@ -6,14 +6,14 @@ public class Caneta {
 	private boolean tampada;
 	private String cor;
 	
-	public Caneta(String modelo, String cor, float ponta) {
+	public Caneta(String modelo, String cor, float ponta) { // Metodo contrutor, SOURCE
 		this.modelo = modelo;
 		this.cor = cor;
 		this.ponta = ponta;
 		
 	}
 
-	public String getModelo() {
+	public String getModelo() {                             // Source Getters and Setters
 		return modelo;
 	}
 
@@ -29,7 +29,7 @@ public class Caneta {
 		this.ponta = ponta;
 	}
 
-	public boolean isTampada() {
+	public boolean getTampada() {
 		return tampada;
 	}
 
