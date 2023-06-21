@@ -31,7 +31,7 @@ public class ProjetoPessoas {
 		
 		p3.receberAum(550.20f);
 		p4.mudarTrabalho();
-		p2.cancelarMatr();
+	 	p2.cancelarMatr();
 		
 		System.out.println(p1.toString());
 		System.out.println(p2.toString());
