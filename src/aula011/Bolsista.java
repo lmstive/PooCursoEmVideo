@@ -28,5 +28,6 @@ public class Bolsista extends Aluno {
 		this.bolsa = bolsa;
 	}
 	
+	
 		
 }
